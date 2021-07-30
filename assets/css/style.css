@@ -23,11 +23,10 @@ header {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: #e55d87;
-    background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-    background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-    background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1);
+    background: #e4b672;
+    background: -moz-linear-gradient(-45deg, #bfe990 0%, #5f99e4 100%);
+    background: -webkit-linear-gradient(-45deg, #bfe990 0%, #5f99e4 100%);
+    background: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
 }
 
 .title {
@@ -258,23 +257,32 @@ nav ul a:hover {
 /* About Section */
 
 #about {
-    padding: 100%;
+    margin-top: 100%;
 }
 
 
 /* Footer */
 
-*/ footer {
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 2%;
+footer {
+    min-height: 120px;
+    padding: 1.5% 0 1.5% 0;
+    background: #e4b672;
+    background: -moz-linear-gradient(-45deg, #bfe990 0%, #5f99e4 100%);
+    background: -webkit-linear-gradient(-45deg, #bfe990 0%, #5f99e4 100%);
+    background: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
+    box-sizing: border-box;
 }
 
-#copyright {
-    float: left;
+footer p {
+    color: #FFFFFF;
+    margin: .5% 0 0 0;
 }
 
-#icons {
-    float: right;
-    padding-left: 3%;
+.socialIcons {
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer a :hover {
+    color: rgb(233, 233, 233);
 }

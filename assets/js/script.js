@@ -1,6 +1,5 @@
-// Navbar
+// Header Functionality
 $(window).scroll(function() {
-
     if ($(window).scrollTop() > 300) {
         $('.main_nav').addClass('sticky');
     } else {
@@ -8,7 +7,6 @@ $(window).scroll(function() {
     }
 });
 
-// Mobile Navigation
 $('.mobile-toggle').click(function() {
     if ($('.main_nav').hasClass('open-nav')) {
         $('.main_nav').removeClass('open-nav');
@@ -24,13 +22,10 @@ $('.main_nav li a').click(function() {
     }
 });
 
-// Scroll effect
 jQuery(document).ready(function($) {
-
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
-
-        var target = this.hash,
+        const target = this.hash,
             $target = $(target);
 
         $('html, body').stop().animate({
