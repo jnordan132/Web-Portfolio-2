@@ -29,9 +29,8 @@
             </div>
         </div>
         <div class="title">
-            <div class="headshot"><img src="assets/images/IMG_me.jpg" width="300" height="300" alt="Picture of me"></div>
-            <br>
-            <br>
+            <div class="headshot"><img src="assets/images/IMG_me.jpg" width="300" height="320" alt="Picture of me"></div>
+            <br><br>
             <h1 class="heading">Jacob Nordan</h1>
             <h2 class="heading">Fullstack Developement</h2>
             <a class="smoothscroll" href="#about">
@@ -46,34 +45,126 @@
     </header>
 
     <section id="about">
+        <br>
+        <div class="card">
+            <br>
+            <h1>About Me</h1>
+            <br>
+            <div class="card-body">Right off the bat, I fell in love with learning about how and why we write good code. I am extremely passionate about solving problems through code and helping others. I began my career search attending flight school and realized quickly that
+                I was more intrigued in the technical analysis of how planes flew, more so than flying planes themselves. This created a spark in me that I never knew I had. I figured out pretty quickly that none of it was possible without programming,
+                and that's what pulled me right into the world of code. Very quickly after, I enrolled in the Coding Bootcamp at UNC. I have extremely enjoyed the challenges and growth accompanied by this decision. I have learned more than I ever could
+                have imagined. I gained an enormous amount of perspective on what I want to do for the rest of my life as well as how much I can help others. I recently worked with a team to create a website that we call "FEEDIT". We used technologies
+                such as 3rd party API's, Bootstrap, Foundation, and jQuery to create a user-friendly recipe search app that we really think could help young adults in their efforts to grow up and live on their own. It can be hard to transition to adulthood
+                but it doesn't have to be. I will continue down this path until the end of my days and I genuinely couldn't be happier waking up every day knowing that.
+            </div>
+            <br>
+        </div>
     </section>
+
+    <br>
 
     <section id="skills">
+        <div class="card">
+            <br>
+            <h1>My Skills</h1>
+            <br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Git</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>Node.js</li>
+            </ul>
+            <br>
+        </div>
     </section>
 
+    <br>
+
     <section id="portfolio">
+        <div class="card mb-3">
+            <img src="./assets/images/FEEDIT.png" class="card-img-top" alt="FEEDIT screenshot">
+            <div class="card-body">
+                <h5 class="card-title">FEEDIT Recipe Search</h5>
+                <!-- <p class="card-text">FEEDIT is a recipe search app that includes food, and alcoholic beverages.</p> -->
+                <p class="card-text">
+                    <small class="text-muted">HTML // CSS // JS</small>
+                </p>
+                <button>
+                        <a id="code" target="_blank" href="https://github.com/jnordan132/FEEDIT">View Code</a>
+                    </button>
+                <button>
+                        <a id="site" target="_blank" href="https://jnordan132.github.io/FEEDIT/">View Site</a>
+                    </button>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <img src="./assets/images/Password Generator.png" class="card-img-top" alt="Password generator screenshot">
+            <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <!-- <p class="card-text">This app creates passwords based on parameters that are asked in alerts.</p> -->
+                <p class="card-text">
+                    <small class="text-muted">HTML // CSS // JS</small>
+                </p>
+                <button>
+                        <a id="code" target="_blank" href="https://github.com/jnordan132/Secure-Password-Generator">View Code</a>
+                    </button>
+                <button>
+                        <a id="site" target="_blank" href="https://jnordan132.github.io/Secure-Password-Generator/">View Site</a>
+                    </button>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <img src="./assets/images/Weather.png" class="card-img-top" alt="Weather dashboard screenshot">
+            <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <!-- <p class="card-text">Weather dashboard shows a 5 day forecast for any given city.</p> -->
+                <p class="card-text">
+                    <small class="text-muted">HTML // CSS // JS</small>
+                </p>
+                <button>
+                        <a id="code" target="_blank" href="https://github.com/jnordan132/City-Weather-Dashboard">View Code</a>
+                    </button>
+                <button>
+                        <a id="site" target="_blank" href="https://jnordan132.github.io/City-Weather-Dashboard/">View Site</a>
+                    </button>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
+        <div class="card">
+            <br>
+            <h1>Contact Me</h1>
+            <br>
+            <h5>Email</h5>
+            <a href="mailto: jacob.nordan113322@gmail.com">jacob.nordan113322@gmail.com</a>
+            <h5>Phone</h5>
+            <a href="tel:910-620-0143">+1 (910)-620-0143</a>
+            <br>
+        </div>
+        <br>
+        <br>
     </section>
 
     <!-- Footer with LinkedIn and Github -->
-    <footer>
+    <footer id="footer">
         <div class="container">
-            <div class="nine columns">
+            <div id="copyright">
                 <p class="mb-0 text-light">© 2021 Jacob Nordan</p>
             </div>
-            <div class="three columns">
-                <a href="https://www.github.com/jnordan132">
+            <div id="links">
+                <a target="_blank" href="https://www.github.com/jnordan132">
                     <span class="typcn typcn-social-github-circular socialIcons"></span>
                 </a>
-                <a href="https://www.linkedin.com/in/jacob-nordan">
+                <a target="_blank" href="https://www.linkedin.com/in/jacob-nordan">
                     <span class="typcn typcn-social-linkedin-circular socialIcons"></span>
                 </a>
             </div>
         </div>
     </footer>
-
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
