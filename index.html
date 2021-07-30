@@ -6,27 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacob Nordan: Web Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
+        <div class="main_nav">
+            <div class="container">
+                <div class="mobile-toggle"><span></span> <span></span> <span></span></div>
+                <nav>
+                    <ul>
+                        <li><a class="smoothscroll" href="#header">Home</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#skills">Skills</a></li>
+                        <li><a class="smoothscroll" href="#portfolio">Work</a></li>
+                        <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="title">
+            <div class="headshot"><img src="assets/images/IMG_me.jpg" width="300" height="300" alt="Picture of me"></div>
+            <br>
+            <br>
+            <h1 class="heading">Jacob Nordan</h1>
+            <h2 class="heading">Fullstack Developement</h2>
+            <a class="smoothscroll" href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+        <a class="smoothscroll" href="#about">
+            <div class="scroll-down"></div>
+        </a>
     </header>
 
-    <section>
+    <section id="about">
     </section>
 
-    <footer id="footer">
-        <p>Unpublished Work © 2021 Jacob Nordan</p>
+    <section id="skills">
+    </section>
+
+    <section id="portfolio">
+    </section>
+
+    <section id="contact">
+    </section>
+
+    <!-- Footer with LinkedIn and Github -->
+    <footer>
+        <p id="copyright">© 2021 Jacob Nordan</p>
+        <div id="icons">
+            <a target="_blank" href="https://github.com/jnordan132">
+                <span class="typcn typcn-social-github-circular socialIcons"></span>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/jacob-nordan">
+                <span class="typcn typcn-social-linkedin-circular socialIcons"></span>
+            </a>
+        </div>
     </footer>
 
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
