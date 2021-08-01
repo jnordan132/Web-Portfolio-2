@@ -173,6 +173,48 @@ nav ul a:hover {
     animation: fade_move_down 2s ease-in-out infinite;
 }
 
+@-webkit-keyframes fade_move_down {
+    0% {
+        -webkit-transform: translate(0, -10px) rotate(45deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translate(0, 10px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fade_move_down {
+    0% {
+        -moz-transform: translate(0, -10px) rotate(45deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -moz-transform: translate(0, 10px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+@keyframes fade_move_down {
+    0% {
+        transform: translate(0, -10px) rotate(45deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 10px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
 a {
     color: #5f99e4;
 }
@@ -284,8 +326,13 @@ a {
 
 /* Portfolio Section */
 
-#portfolio {
+#portfolio h1 {
+    text-align: center;
+}
+
+.p-cards {
     display: flex;
+    text-align: center;
     padding: 5%;
 }
 

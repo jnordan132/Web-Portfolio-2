@@ -22,6 +22,7 @@ $('.main_nav li a').click(function() {
     }
 });
 
+// Scroll
 jQuery(document).ready(function($) {
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
