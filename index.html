@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -43,12 +44,12 @@
             <div class="scroll-down"></div>
         </a>
     </header>
-
     <section id="about">
+        <br>
         <br>
         <div class="card">
             <br>
-            <h1><u>About Me</u></h1>
+            <h1>About Me</h1>
             <br>
             <div class="card-body">Right off the bat, I fell in love with learning about how and why we write good code. I am extremely passionate about solving problems through code and helping others. I began my career search attending flight school and realized quickly that
                 I was more intrigued in the technical analysis of how planes flew, more so than flying planes themselves. This created a spark in me that I never knew I had. I figured out pretty quickly that none of it was possible without programming,
@@ -60,91 +61,101 @@
             <br>
         </div>
     </section>
-
     <br>
-
+    <br>
     <section id="skills">
         <div class="card">
             <br>
-            <h1><u>My Skills</u></h1>
+            <br>
+            <h1>My Skills</h1>
+            <br>
             <br>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Git</li>
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-                <li>Node.js</li>
+                <div class="left">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Git</li>
+                </div>
+                <div class="right">
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>Node.js</li>
+                </div>
             </ul>
             <br>
         </div>
     </section>
-
     <br>
-
     <section id="portfolio">
         <br>
-        <h1><u>My Work</u></h1>
-        <div class="p-cards">
-            <div class="card mb-3">
-                <img src="./assets/images/FEEDIT.png" class="card-img-top" alt="FEEDIT screenshot">
-                <div class="card-body">
-                    <h5 class="card-title">FEEDIT Recipe Search</h5>
-                    <!-- <p class="card-text">FEEDIT is a recipe search app that includes food, and alcoholic beverages.</p> -->
-                    <p class="card-text">
-                        <small class="text-muted">HTML // CSS // JS</small>
-                    </p>
-                    <button>
-                            <a id="code" target="_blank" href="https://github.com/jnordan132/FEEDIT">View Code</a>
-                        </button>
-                    <button>
-                            <a id="site" target="_blank" href="https://jnordan132.github.io/FEEDIT/">View Site</a>
-                        </button>
+        <div class="card">
+            <br>
+            <h1>My Work</h1>
+            <div class="p-cards">
+                <div class="card mb-3">
+                    <img src="./assets/images/FEEDIT.png" class="card-img-top" alt="FEEDIT screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">FEEDIT Recipe Search</h5>
+                        <p class="card-text">FEEDIT is a recipe search app that includes food, and alcoholic beverages.</p>
+                        <p class="card-text">
+                            <small class="text-muted">HTML // CSS // JS</small>
+                        </p>
+                        <button>
+                                <a id="code" target="_blank" href="https://github.com/jnordan132/FEEDIT">View Code</a>
+                            </button>
+                        <button>
+                                <a id="site" target="_blank" href="https://jnordan132.github.io/FEEDIT/">View Site</a>
+                            </button>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img src="./assets/images/Password Generator.png" class="card-img-top" alt="Password generator screenshot">
-                <div class="card-body">
-                    <h5 class="card-title">Password Generator</h5>
-                    <!-- <p class="card-text">This app creates passwords based on parameters that are asked in alerts.</p> -->
-                    <p class="card-text">
-                        <small class="text-muted">HTML // CSS // JS</small>
-                    </p>
-                    <button>
-                            <a id="code" target="_blank" href="https://github.com/jnordan132/Secure-Password-Generator">View Code</a>
-                        </button>
-                    <button>
-                            <a id="site" target="_blank" href="https://jnordan132.github.io/Secure-Password-Generator/">View Site</a>
-                        </button>
+                <br>
+                <div class="card mb-3">
+                    <img src="./assets/images/Password Generator.png" class="card-img-top" alt="Password generator screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">This app creates passwords based on parameters that are asked in alerts.</p>
+                        <p class="card-text">
+                            <small class="text-muted">HTML // CSS // JS</small>
+                        </p>
+                        <button>
+                                <a id="code" target="_blank" href="https://github.com/jnordan132/Secure-Password-Generator">View Code</a>
+                            </button>
+                        <button>
+                                <a id="site" target="_blank" href="https://jnordan132.github.io/Secure-Password-Generator/">View Site</a>
+                            </button>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img src="./assets/images/Weather.png" class="card-img-top" alt="Weather dashboard screenshot">
-                <div class="card-body">
-                    <h5 class="card-title">Weather Dashboard</h5>
-                    <!-- <p class="card-text">Weather dashboard shows a 5 day forecast for any given city.</p> -->
-                    <p class="card-text">
-                        <small class="text-muted">HTML // CSS // JS</small>
-                    </p>
-                    <button>
-                            <a id="code" target="_blank" href="https://github.com/jnordan132/City-Weather-Dashboard">View Code</a>
-                        </button>
-                    <button>
-                            <a id="site" target="_blank" href="https://jnordan132.github.io/City-Weather-Dashboard/">View Site</a>
-                        </button>
+                <br>
+                <div class="card mb-3">
+                    <img src="./assets/images/Weather.png" class="card-img-top" alt="Weather dashboard screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">Weather dashboard shows a 5 day forecast for any given city.</p>
+                        <p class="card-text">
+                            <small class="text-muted">HTML // CSS // JS</small>
+                        </p>
+                        <button>
+                                <a id="code" target="_blank" href="https://github.com/jnordan132/City-Weather-Dashboard">View Code</a>
+                            </button>
+                        <button>
+                                <a id="site" target="_blank" href="https://jnordan132.github.io/City-Weather-Dashboard/">View Site</a>
+                            </button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
     <section id="contact">
         <div class="card">
             <br>
-            <h1><u>Contact Me</u></h1>
+            <h1>Contact Me</h1>
             <br>
             <h5>Email</h5>
             <a href="mailto: jacob.nordan113322@gmail.com">jacob.nordan113322@gmail.com</a>
+            <br>
             <h5>Phone</h5>
             <a href="tel:910-620-0143">+1 (910)-620-0143</a>
             <br>

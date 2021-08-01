@@ -303,41 +303,62 @@ a {
 /* About Section */
 
 #about .card {
-    padding-left: 13%;
-    padding-right: 13%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: center;
+}
+
+#about h1 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
+    border-image-slice: 1;
+    width: 10.5%;
 }
 
 
 /* Skills Section */
 
-#skills .card {
-    text-align: center;
+#skills h1 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
+    border-image-slice: 1;
+    width: 8.5%;
 }
 
-#skills #left {
-    float: left;
+#skills ul {
+    columns: 2;
+    list-style: none;
+    margin-left: 4%;
 }
 
-#skills #right {
-    float: right;
+ul .right {
+    margin-right: 85%;
+}
+
+ul .left {
+    margin-left: 85%;
 }
 
 
 /* Portfolio Section */
 
 #portfolio h1 {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
+    border-image-slice: 1;
+    width: 9%;
 }
 
 .p-cards {
     display: flex;
     text-align: center;
-    padding: 5%;
-}
-
-#portfolio .card {
-    margin: .5%;
+    padding: 3%;
 }
 
 .card-body {
@@ -357,6 +378,15 @@ a {
 
 
 /* Contact Section */
+
+#contact h1 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
+    border-image-slice: 1;
+    width: 11.5%;
+}
 
 #contact {
     text-align: center;
