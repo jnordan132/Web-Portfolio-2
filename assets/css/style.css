@@ -219,16 +219,7 @@ a {
     color: #5f99e4;
 }
 
-@media only screen and (max-height: 700px) {
-    .title h1 {
-        font-size: 80px;
-    }
-}
-
 @media only screen and (max-width: 400px) {
-    .title h1 {
-        font-size: 65px;
-    }
     .mobile-toggle {
         padding-top: 3%;
     }
@@ -253,7 +244,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
     .main_nav {
         padding-top: 25px;
     }
@@ -276,6 +267,9 @@ a {
     }
     .mobile-toggle {
         display: block;
+    }
+    .p-cards {
+        flex-direction: column;
     }
 }
 
