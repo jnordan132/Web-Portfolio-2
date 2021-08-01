@@ -219,30 +219,30 @@ a {
     color: #5f99e4;
 }
 
+
+/* Iphone */
+
 @media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 150%;
+        text-align: center;
+    }
+    #about .card-body {
+        text-align: left;
+    }
     .mobile-toggle {
         padding-top: 3%;
     }
-    #about h1 {
-        font-size: 90%;
-        width: 400%;
-    }
-    #skills h1 {
-        font-size: 90%;
-    }
     #skills ul {
-        columns: 3;
-    }
-    #portfolio h1 {
-        font-size: 90%;
+        word-wrap: normal;
     }
     .p-cards {
         flex-direction: column;
     }
-    #contact h1 {
-        font-size: 90%;
-    }
 }
+
+
+/* Ipad media query */
 
 @media only screen and (max-width: 768px) {
     .main_nav {
@@ -330,7 +330,7 @@ a {
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
     border-image-slice: 1;
-    width: 10.5%;
+    width: auto;
 }
 
 
@@ -342,13 +342,14 @@ a {
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
     border-image-slice: 1;
-    width: 8.5%;
+    width: auto;
 }
 
 #skills ul {
     columns: 2;
     list-style: none;
     margin-left: 4%;
+    width: auto;
 }
 
 ul .right {
@@ -368,7 +369,7 @@ ul .left {
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
     border-image-slice: 1;
-    width: 9%;
+    width: auto;
 }
 
 .p-cards {
@@ -401,7 +402,7 @@ ul .left {
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(135deg, #bfe990 0%, #5f99e4 100%);
     border-image-slice: 1;
-    width: 11.5%;
+    width: auto;
 }
 
 #contact {
