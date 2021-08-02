@@ -110,7 +110,7 @@ header {
 
 nav {
     width: 100%;
-    margin-top: 5px;
+    margin-top: -7px;
 }
 
 nav ul {
@@ -298,6 +298,9 @@ footer p {
 
 footer a :hover {
     color: rgb(223, 223, 223);
+}
+
+#phone :hover {
     text-decoration: none;
 }
 
