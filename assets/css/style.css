@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+a {
+    color: #5f99e4;
+}
+
 
 /* Header */
 
@@ -174,10 +178,6 @@ nav ul a:hover {
     animation: fade_move_down 2s ease-in-out infinite;
 }
 
-a {
-    color: #5f99e4;
-}
-
 
 /* About Section */
 
@@ -312,8 +312,8 @@ footer a :hover {
     .mobile-toggle {
         padding: 2%;
     }
-    #skills .card {
-        padding-bottom: 25%;
+    #skills ul {
+        margin-bottom: 10%;
     }
     ul .right {
         position: absolute;
