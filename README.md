@@ -3,7 +3,7 @@ This is my updated Portfolio website, this website showcases some of my previous
 
 # Links and Screenshots
 
-![Header](https://user-images.githubusercontent.com/81433664/127889139-c8b480e3-fd97-4760-88e1-b0562be69019.png)
+![Header](https://user-images.githubusercontent.com/81433664/127889489-4e82eea0-a05c-4a1d-a48f-b5f69f761bec.png)
 ![About -- Skills](https://user-images.githubusercontent.com/81433664/127889154-dd24f8c6-6347-4f79-a016-a9f2969cda4a.png)
 ![My-work](https://user-images.githubusercontent.com/81433664/127889163-04dcf461-5e7a-4f0d-8b21-963ecc542cb8.png)
 ![Footer](https://user-images.githubusercontent.com/81433664/127889178-4f49e810-0d79-4bb2-890a-e173353c793d.png)
