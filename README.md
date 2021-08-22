@@ -1,5 +1,5 @@
 # Web-Portfolio-2
-[GitHub Repo](https://github.com/jnordan132/Web-Portfolio-2)/
+[GitHub Repo](https://github.com/jnordan132/Web-Portfolio-2)\
 [Live URL](https://jnordan132.github.io/Web-Portfolio-2/)
 # Description
 This is my updated portfolio website that contains a little bit about myself, some of my previous work, and some different ways you can connect with me.
