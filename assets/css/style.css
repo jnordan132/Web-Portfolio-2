@@ -3,10 +3,17 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     color: #5f99e4;
 }
 
+.card {
+    /* border: none */
+}
 
 /* Header */
 
@@ -182,9 +189,10 @@ nav ul a:hover {
 /* About Section */
 
 #about .card {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
     text-align: center;
+    border: none;
 }
 
 #about h1 {
@@ -208,21 +216,32 @@ nav ul a:hover {
     width: auto;
 }
 
-#skills ul {
-    columns: 2;
-    list-style: none;
-    margin-left: 4%;
-    width: auto;
+#skills .card {
+    border-radius: 0px;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
 }
 
-ul .right {
-    margin-right: 85%;
+.row {
+    margin-bottom: 3%;
 }
 
-ul .left {
-    margin-left: 85%;
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
 }
 
+.column li {
+    list-style-type: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    display: table;
+    clear: both;
+}
 
 /* Portfolio Section */
 
@@ -245,10 +264,14 @@ ul .left {
     text-align: center;
 }
 
+#portfolio .card {
+    border-radius: 0px;
+}
+
 #portfolio .card button {
     padding: 1%;
     margin: 1%;
-    background-color: #202020;
+    background-color: #b6d0f1;
 }
 
 #portfolio .card button :hover {
@@ -272,6 +295,9 @@ ul .left {
     text-align: center;
 }
 
+#contact .card {
+    border: none;
+}
 
 /* Footer */
 
@@ -421,5 +447,11 @@ footer a :hover {
     100% {
         -moz-transform: translate(0, 10px) rotate(45deg);
         opacity: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
 }
