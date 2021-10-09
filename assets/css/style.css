@@ -256,6 +256,10 @@ nav ul a:hover {
     padding: 3%;
 }
 
+.p-cards .card :hover{
+    color: #000000;
+}
+
 .card-body {
     text-align: center;
 }
